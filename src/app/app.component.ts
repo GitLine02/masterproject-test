@@ -3,11 +3,12 @@ import {RouterOutlet} from '@angular/router';
 import {BehaviorSubject} from "rxjs";
 import {AsyncPipe, NgForOf} from "@angular/common";
 import {TouchCardComponent} from "./touch-card/touch-card.component";
+import {GraphicTestComponent} from "./graphic-test/graphic-test.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NgForOf, AsyncPipe, TouchCardComponent],
+  imports: [RouterOutlet, NgForOf, AsyncPipe, TouchCardComponent, GraphicTestComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

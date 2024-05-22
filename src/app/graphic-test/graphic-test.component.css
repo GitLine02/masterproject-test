@@ -1,0 +1,13 @@
+.canvas-container {
+  background-color: midnightblue;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  touch-action: none; /* Prevents default touch gestures like pinch-zoom */
+  cursor: crosshair;
+}
